@@ -40,36 +40,84 @@ This challenge will test your understanding of linking, structure, forms, tables
 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Homepage Challenge</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+
+<body style="background-color: rgb(50, 90, 92);">
     <!-- Navigation bar: Link to sections and other HTML files -->
     <nav>
-        <!-- Example: <a href="#about">About Section</a> | <a href="#contact">Contact Section</a> | <a href="about.html">About Page</a> | <a href="contact.html">Contact Page</a> -->
+        <ul>
+            <li><a href="./contact.html">contact</li>
+            <li> <a href="./about.html">about</a></li>
+        </ul><!-- Example: <a href="#about">About Section</a> | <a href="#contact">Contact Section</a> | <a href="about.html">About Page</a> | <a href="contact.html">Contact Page</a> --
     </nav>
     <hr>
     <!-- Main content area -->
-    <div class="main-content" id="main-content">
+    <div class="main-content" id="main-content style width:100vw height:50vh background-color red">
+        <section id="about"style="background-color:">about
+        </section>about
         <!-- Section 1: About  add id call it about section -->
-        <section >
+        <section id="adout" weith="100"height="85" style="background-color: lightslategray;">
+            my life in the mahama camp
             <!-- Your About content here -->
         </section>
         <!-- Section 2: add id call it  Contact  -->
-        <section >
+        <section> contact
             <!-- Your Contact content here -->
         </section>
-    </div>
+    </div >
     <hr>
+   
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sLLPAy8sT_8">
+    </iframe>
+    </video>
     <!-- Embed another HTML file using iframe add a youtube video -->
-    <div class="iframe-area" id="iframe-area">
+    <div>
+        <iframe src="about.html" width="430" height="330"></iframe>
         <!-- Example: <iframe src="about.html" width="400" height="200"></iframe> -->
     </div>
     <hr>
+    <form action="">
+        <label for="email">email</label>
+        <input type="email" id="email" plceholder="your email"><br>
+        <label for="passwer">passwer</label>
+        <input type="passwer" id="passwer" plceholder="passwer"><br>
+        <button type="submit">submit</button>
+
+    </form>
     <!-- Small form with labels and inputs -->
-    <div class="form-area" id="form-area">
+    <div>
+        <h1>this forms about a univirstay sudan </h1>
+        <form action="">
+            <label for=" name:"> name</label>
+            <input type="name" id="name" plceholder="your name"><br>
+            Age : <select id="age" name="number"><br>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+            
+        
+    </select>
+<br>
+<lable for="massege :">massege</lable>
+<textarea name="massege:"id="">massege</textarea><br><br>
+        <label for="passwer:">passwer</label>
+        <input type="passwer" id="passwer" plceholder="passwer"><br><br>
+        <label for="Email :">Email</label>
+        <input type="text"plceholder="your Email"><br><br>
+
+        <button type="submit">submit</button>
+
+        </form>
+    
         <!-- Example:
         <form>
             <label for="name">Name:</label>
@@ -81,6 +129,32 @@ This challenge will test your understanding of linking, structure, forms, tables
         -->
     </div>
     <hr>
+    <table border="1"> 
+        <tr>
+            <th>name</th>
+            <th>Age</th>
+            <th>houers 1-12 </th>
+        </tr>
+
+        <tr>
+    <td>hassen</td>
+    <td>23</td>
+    <td>3 houers</td>
+
+    </tr>
+    
+    <td>omer</td>
+    <td>21</td>
+    <td>6 houers</td>
+</tr>
+</tr>
+    
+    <td>fatema</td>
+    <td>25</td>
+    <td>2 houers</td>
+</tr>
+    </table>
+    
     <!-- Table to display names but dont copy mine add more names and more rows atleast 3 rows and columns -->
     <div class="table-area" id="table-area">
         <!-- Example:
@@ -91,7 +165,16 @@ This challenge will test your understanding of linking, structure, forms, tables
             <tr><td>Charlie</td></tr>
         </table>
         -->
+        <h3>Example table </h3>
+           <table border="1">
+            <tr><th>Name</th></tr>
+            <tr><td>Alice</td></tr>
+            <tr><td>Bob</td></tr>
+            <tr><td>Charlie</td></tr>
+        </table>
     </div>
     <!-- Add comments throughout your code explaining your choices! -->
+
 </body>
+
 </html>
